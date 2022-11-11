@@ -1,0 +1,222 @@
+.menu {
+    cursor: pointer
+}
+
+.header-search__see-result {
+    padding-top: 4em;
+
+}
+
+.header-search__see-results>a:visited {
+    border-bottom: none
+}
+
+.header-search__see-results>a:focus {
+    border-bottom: none
+}
+
+.header-search__see-results>a:hover {
+    border-bottom: none
+}
+
+.header-search__see-results>a:active {
+    border-bottom: none
+}
+
+.header-search__see-results .search-results {
+    text-decoration: underline
+}
+
+.header-search__result__image {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+
+.header-search__results .header-search__result:nth-of-type(4n+1) {
+    width:25%;
+    float: left;
+    margin-right: -100%;
+    clear: none;
+    padding-right: 15px;
+    margin-left: 0;
+    clear: both
+}
+
+[dir=rtl] .header-search__results .header-search__result:nth-of-type(4n+1) {
+    float: right;
+    margin-left: -100%;
+    padding-left: 15px
+}
+
+.header-search__results .header-search__result:nth-of-type(4n+2) {
+    width: 25%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25%;
+    clear: none;
+    padding-right: 15px
+}
+
+[dir=rtl] .header-search__results .header-search__result:nth-of-type(4n+2) {
+    float: right;
+    margin-left: -100%;
+    margin-right: 25%;
+    padding-left: 15px
+}
+
+.header-search__results .header-search__result:nth-of-type(4n+3) {
+    width: 25%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 50%;
+    clear: none;
+    padding-right: 15px
+}
+
+[dir=rtl] .header-search__results .header-search__result:nth-of-type(4n+3) {
+    float: right;
+    margin-left: -100%;
+    margin-right: 50%;
+    padding-left: 15px
+}
+
+.header-search__results .header-search__result:nth-of-type(4n+4) {
+    width: 25%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    padding-right: 0
+}
+
+[dir=rtl] .header-search__results .header-search__result:nth-of-type(4n+4) {
+    float: left;
+    padding-left: 0
+}
+
+
+.header-search__results {
+
+    border-top: 1px solid #c7c7c7;
+    width: 100%;
+    background: white;
+    padding-right: 9em;
+}
+
+.header-search_description {
+    padding: 0.7em;
+    text-decoration: none;
+    border-bottom: none;
+    font-family: Helvetica,Arial,sans-serif;
+    color:#000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .30000001192092896px;
+    line-height: 1.16667;
+
+}
+.header-search_price {
+    font-size: 16px;
+    color:#000;
+    line-height: 18px;
+    letter-spacing: -1px;
+    font-family: Helvetica,Arial,sans-serif;
+}
+.header-search__results:after {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.header-search__results .header-search__result {
+    width: 100%;
+    padding: 7em 0em 3em 11em;
+}
+
+.header-search__results a {
+    text-decoration: none;
+    border-bottom: none
+}
+
+.header-search__results a:visited {
+    border-bottom: none
+}
+
+.header-search__results a:focus {
+    border-bottom: none
+}
+
+.header-search__results a:hover {
+    border-bottom: none
+}
+
+.header-search__results a:active {
+    border-bottom: none
+}
+
+
+@media (min-width: 481px) {
+    .header-search__result__image {
+        display:block;
+        float: left;
+        text-align: center;
+        padding-right: 7.5px
+    }
+}
+
+.header-search__result__link {
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 1;
+    display: block;
+    padding: 3px 0
+}
+
+
+
+.header-search_tags {
+    display: flex;
+    font-size: 12px;
+    color: #FFF;
+    font-size: 1rem;
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    bottom: 22px;
+    align-items: baseline;
+    flex-direction: row;
+    a {
+        transition: opacity .5s;
+        color:#FFF;
+        &:hover {
+            opacity: 0.7;
+        }
+        &:visited {
+            color: inherit;
+        }
+    }
+}
+.header-search__result__tag {
+    height: auto;
+    /* display: grid; */
+    width: max-content;
+    min-width: 45.7px;
+    text-align: center;
+    font-size: 11px;
+    margin: 0px 4px -14px 5px;
+    padding:0.5em 1em 0.5em 1em;
+    border-radius: 15px;
+    background: #727272;
+    /* word-break: break-all; */
+}
+.header-search__result__description {
+    font-size: 12px;
+    font-size: 1rem;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.25;
+    text-transform: uppercase
+}
+
