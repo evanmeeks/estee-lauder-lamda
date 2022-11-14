@@ -23,4 +23,4 @@ netlify deploy --prod
 ```
 
 ### Demo 
-[https://cosmetics-lamda-app.netlify.app/](https://cosmetics-lamda-app.netlify.app/)
+[https://cosmetics-lamda-app.netlify.app](https://cosmetics-lamda-app.netlify.app)
